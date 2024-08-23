@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>VOCE NASCEU EM QUAl PAÍS ?</h1>
+   <input type="text" id="txtx">
+    <input type="button" value="ok" onclick="calcular()">
+    <div id="res">
+
+    </div>
+
+
+
+    <script>
+        function calcular(){
+            var name = document.querySelector('input#txtx')
+            var res = document.querySelector('div#res')
+
+            var pais = 'brasil'
+            if (pais == 'brasil') {
+                res.innerHTML = `voce é brasileiro`
+                
+            } else  {
+                     res.innerHTML = `voce é estrangeiro`}
+                
+                   
+                }
+            
+        
+            
+        
+            
+    
+
+       
+    
+     
+       
+        
+     
+    </script>
+</body>
+</html>   
